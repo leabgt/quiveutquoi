@@ -1,1 +1,20 @@
 // Specific CSS for your home-page
+.background-home {
+  height: 100%;
+  padding: 360px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.discover-btn {
+  background-color: $orange;
+  margin: 0 auto;
+  display: block;
+  padding: 12px 25px;
+  font-size: 20px;
+  border-radius: 5px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
